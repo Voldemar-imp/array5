@@ -15,7 +15,7 @@ namespace array
             int randomMin = 3;
             int randomMax = 6;
             int previousNumber;
-            int RepitNumber;
+            int repitNumber;
             int repitCount = 1;
             int maxRepitCount = 1;
             Random random = new Random(); 
@@ -27,7 +27,7 @@ namespace array
             }
 
             Console.WriteLine("- массив");
-            RepitNumber = numbersArray[0];
+            repitNumber = numbersArray[0];
             previousNumber = numbersArray[0];
             Console.Write(repitCount + " ");
 
@@ -46,7 +46,7 @@ namespace array
 
                 if (repitCount > maxRepitCount)
                 {
-                    RepitNumber = numbersArray[i];
+                    repitNumber = numbersArray[i];
                     maxRepitCount = repitCount;
                 }
 
@@ -54,7 +54,7 @@ namespace array
             }
 
             Console.WriteLine("- количество повторений");
-            Console.WriteLine("Больше всего подряд повторялось число: " + RepitNumber);
+            Console.WriteLine("Больше всего подряд повторялось число: " + repitNumber);
             Console.WriteLine("Максимальное количество повторений: " + maxRepitCount); 
         }
     }
