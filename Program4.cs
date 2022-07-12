@@ -53,9 +53,9 @@ namespace array
                 previousNumber = numbersArray[i];                
             }
 
-            Console.WriteLine("- количество посторений");
+            Console.WriteLine("- количество повторений");
             Console.WriteLine("Больше всего подряд повторялось число: " + RepitNumber);
-            Console.WriteLine("Максимально количество повторений: " + maxRepitCount); 
+            Console.WriteLine("Максимальное количество повторений: " + maxRepitCount); 
         }
     }
 }
